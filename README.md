@@ -17,10 +17,6 @@ description will be in Russian, if necessary, use Google translate
 * Если список инструментов оставить пустым - будет слать по всем парам из обзора рынка
 
 
-## Redis
-Если под винды: https://github.com/MicrosoftArchive/redis/releases
-
-
 ## Python
 сделал 2 примера: 
 1) непосредственного получения и обработки данных 
@@ -29,3 +25,10 @@ description will be in Russian, if necessary, use Google translate
 Сам я остановился на варианте с Redis тк:
 + достаточно одного терминала на множество скриптов. (работа идет как с единым БД).
 + по скорости, для моих нужд, более чем быстро и не уступает socket
+
+## Install
+### Redis
+Если под винды: https://github.com/MicrosoftArchive/redis/releases
+
+## Conacts
+Telegram: @Lxbinary
