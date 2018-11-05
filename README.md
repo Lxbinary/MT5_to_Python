@@ -22,6 +22,11 @@ description will be in Russian, if necessary, use Google translate
 1) непосредственного получения и обработки данных 
 2) и тест скорости отправки. у меня по сокетам и по редис время, от отправки из терминала, до получения в питоне быстрее 0,001 sec (те Очень быстро и разницы на таком уровне нету)
 
+<p align="center">
+  <img src="https://github.com/Lxbinary/MT5_to_Python/raw/master/img/redis_bench.png" width="400"/> &nbsp &nbsp
+  <img src="https://github.com/Lxbinary/MT5_to_Python/raw/master/img/socket_bench.png" width="400"/>
+</p>
+
 Сам я остановился на варианте с Redis тк:
 + достаточно одного терминала на множество скриптов. (работа идет как с единым БД).
 + по скорости, для моих нужд, более чем быстро и не уступает socket
