@@ -5,7 +5,7 @@ description will be in Russian, if necessary, use Google translate
 
 
 ## MT5
-в папке /mt5/MQL5/ все необходимое для работы исходниками
+в папке /mt5/MQL5/ все необходимое для работы, со всеми исходниками!
 
 терминал от Alpari MT5 Version 5.00 build 1940
 
