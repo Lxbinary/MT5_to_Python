@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7BA9DFB0-A50B-4020-B356-AFBCF9E3F312}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>hiredis</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;HIREDIS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;HIREDIS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;HIREDIS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;HIREDIS_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>hiredis.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="async.c" />
+    <ClCompile Include="dict.c" />
+    <ClCompile Include="hiredis.c" />
+    <ClCompile Include="net.c" />
+    <ClCompile Include="sds.c" />
+    <ClCompile Include="src\adlist.c" />
+    <ClCompile Include="src\ae.c" />
+    <ClCompile Include="src\Win32_Interop\win32fixes.c" />
+    <ClCompile Include="src\Win32_Interop\Win32_ANSI.c" />
+    <ClCompile Include="src\Win32_Interop\Win32_APIs.c" />
+    <ClCompile Include="src\Win32_Interop\Win32_CommandLine.cpp" />
+    <ClCompile Include="src\Win32_Interop\Win32_Common.cpp" />
+    <ClCompile Include="src\Win32_Interop\Win32_dlmalloc.c" />
+    <ClCompile Include="src\Win32_Interop\Win32_Error.c" />
+    <ClCompile Include="src\Win32_Interop\Win32_EventLog.cpp" />
+    <ClCompile Include="src\Win32_Interop\Win32_FDAPI.cpp" />
+    <ClCompile Include="src\Win32_Interop\Win32_fdapi_crt.cpp" />
+    <ClCompile Include="src\Win32_Interop\Win32_PThread.c" />
+    <ClCompile Include="src\Win32_Interop\Win32_RedisLog.c" />
+    <ClCompile Include="src\Win32_Interop\win32_rfdmap.cpp" />
+    <ClCompile Include="src\Win32_Interop\Win32_service.cpp" />
+    <ClCompile Include="src\Win32_Interop\Win32_Signal_Process.c" />
+    <ClCompile Include="src\Win32_Interop\Win32_StackTrace.cpp" />
+    <ClCompile Include="src\Win32_Interop\Win32_ThreadControl.c" />
+    <ClCompile Include="src\Win32_Interop\Win32_Time.c" />
+    <ClCompile Include="src\Win32_Interop\Win32_variadicFunctor.cpp" />
+    <ClCompile Include="src\Win32_Interop\win32_wsiocp.c" />
+    <ClCompile Include="src\zmalloc.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="async.h" />
+    <ClInclude Include="dict.h" />
+    <ClInclude Include="fmacros.h" />
+    <ClInclude Include="hiredis.h" />
+    <ClInclude Include="net.h" />
+    <ClInclude Include="sds.h" />
+    <ClInclude Include="sdsalloc.h" />
+    <ClInclude Include="src\adlist.h" />
+    <ClInclude Include="src\ae.h" />
+    <ClInclude Include="src\Win32_Interop\EventLog.h" />
+    <ClInclude Include="src\Win32_Interop\win32fixes.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_ANSI.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_APIs.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_Assert.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_CommandLine.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_Common.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_dlmalloc.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_Error.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_EventLog.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_FDAPI.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_fdapi_crt.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_Portability.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_PThread.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_RedisLog.h" />
+    <ClInclude Include="src\Win32_Interop\win32_rfdmap.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_Service.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_Signal_Process.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_SmartHandle.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_StackTrace.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_ThreadControl.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_Time.h" />
+    <ClInclude Include="src\Win32_Interop\win32_types.h" />
+    <ClInclude Include="src\Win32_Interop\win32_types_hiredis.h" />
+    <ClInclude Include="src\Win32_Interop\Win32_variadicFunctor.h" />
+    <ClInclude Include="src\Win32_Interop\win32_winapifamily.h" />
+    <ClInclude Include="src\Win32_Interop\win32_wsiocp.h" />
+    <ClInclude Include="src\Win32_Interop\win32_wsiocp2.h" />
+    <ClInclude Include="src\Win32_Interop\WS2tcpip.h" />
+    <ClInclude Include="src\zmalloc.h" />
+    <ClInclude Include="win32_hiredis.h" />
+    <ClInclude Include="zmalloc.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,19 @@
+EXPORTS
+	freeReplyObject
+	redisConnect
+	redisConnectWithTimeout
+	redisConnectNonBlock
+	redisSetTimeout
+	redisEnableKeepAlive
+	redisFree
+	_redisFree
+	redisFreeKeepFd
+	redisBufferRead
+	redisBufferWrite
+	redisvAppendCommand
+	redisAppendCommand
+	redisAppendCommandArgv
+	redisvCommand
+	redisCommand
+	redisCommandArgv
+	__redisSetError

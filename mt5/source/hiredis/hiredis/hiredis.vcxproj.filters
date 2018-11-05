@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{c473f708-9fc6-47dd-872a-a1c203785a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Win32_Interop">
+      <UniqueIdentifier>{7e55ea36-5ab0-4a21-ae65-ed52c44c44d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\src">
+      <UniqueIdentifier>{86b68327-5cce-4413-98b2-3a7f1cae03cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\src\Win32_Interop">
+      <UniqueIdentifier>{46549ed5-7fa1-4487-8946-a7df039758ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="async.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hiredis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="net.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\Win32_ANSI.c">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\Win32_APIs.c">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\Win32_dlmalloc.c">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\Win32_Error.c">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\Win32_PThread.c">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\Win32_RedisLog.c">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\Win32_Signal_Process.c">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\Win32_ThreadControl.c">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\Win32_Time.c">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\win32_wsiocp.c">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\win32fixes.c">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\Win32_CommandLine.cpp">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\Win32_Common.cpp">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\Win32_EventLog.cpp">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\Win32_FDAPI.cpp">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\Win32_fdapi_crt.cpp">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\win32_rfdmap.cpp">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\Win32_service.cpp">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\Win32_StackTrace.cpp">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Win32_Interop\Win32_variadicFunctor.cpp">
+      <Filter>Source Files\src\Win32_Interop</Filter>
+    </ClCompile>
+    <ClCompile Include="src\adlist.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zmalloc.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ae.c">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="async.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fmacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hiredis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="net.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sdsalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32_hiredis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="zmalloc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\EventLog.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_ANSI.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_APIs.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_Assert.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_CommandLine.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_Common.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_dlmalloc.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_Error.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_EventLog.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_FDAPI.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_fdapi_crt.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_Portability.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_PThread.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_RedisLog.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\win32_rfdmap.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_Service.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_Signal_Process.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_SmartHandle.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_StackTrace.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_ThreadControl.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_Time.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\win32_types.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\win32_types_hiredis.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\Win32_variadicFunctor.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\win32_winapifamily.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\win32_wsiocp.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\win32_wsiocp2.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\win32fixes.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Win32_Interop\WS2tcpip.h">
+      <Filter>Header Files\src\Win32_Interop</Filter>
+    </ClInclude>
+    <ClInclude Include="src\adlist.h">
+      <Filter>Header Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\zmalloc.h">
+      <Filter>Header Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ae.h">
+      <Filter>Header Files\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
