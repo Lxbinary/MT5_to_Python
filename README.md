@@ -1,6 +1,6 @@
 # MT5_to_Python
 
-the repository show 2 ways to transfer data from mt5 to python
+the repository show 2 ways to transfer data from mt5 to python.
 description will be in Russian, if necessary, use Google translate
 
 
