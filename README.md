@@ -30,5 +30,5 @@ description will be in Russian, if necessary, use Google translate
 ### Redis
 Если под винды: https://github.com/MicrosoftArchive/redis/releases
 
-## Conacts
+## Contacts
 Telegram: @Lxbinary
