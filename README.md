@@ -18,7 +18,7 @@ description will be in Russian, if necessary, use Google translate
 
 
 ## Redis
-Если под винды: https://www.mql5.com/go?link=https%3A%2F%2Fgithub.com%2FMicrosoftArchive%2Fredis%2Freleases
+Если под винды: https://github.com/MicrosoftArchive/redis/releases
 
 
 ## Python
